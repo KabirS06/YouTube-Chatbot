@@ -12,7 +12,7 @@ import streamlit as st
 
 load_dotenv()
 
-llm=HuggingFaceEndpoint(model='meta-llama/Llama-3.1-8B-Instruct',
+llm=HuggingFaceEndpoint(model='Qwen/Qwen3-32B',
                         task='text_generation')
 
 model=ChatHuggingFace(llm=llm)
