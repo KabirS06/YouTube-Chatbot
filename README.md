@@ -9,7 +9,7 @@ An interactive Streamlit web application that allows users to ask questions abou
 - **Instant Transcript Extraction:** Automatically extracts text transcripts from YouTube URLs (supporting standard and shortened formats).
 - **Smart Text Chunking:** Utilizes LangChain's `RecursiveCharacterTextSplitter` to optimize long transcripts for processing.
 - **Semantic Search Vector Store:** Embeds transcript data with `sentence-transformers` and indexes it using **FAISS** for fast similarity lookups.
-- **Context-Bound Answers:** Uses `Llama-3.1-8B-Instruct` to guarantee that answers are strictly grounded within the video's content.
+- **Context-Bound Answers:** Uses `Qwen/Qwen3-32B` to guarantee that answers are strictly grounded within the video's content.
 - **Streamlit UI:** Clean, modern, and user-friendly web interface.
 
 ---
